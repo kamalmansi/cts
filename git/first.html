@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+
+    <head>
+            <title>JavaScriptTutorial</title>
+                <script type= "text/javaScript">
+                document.write("Its javascript form validation");
+                
+
+                function validateForm() {
+               //var x = document.forms["myForm"]["fname"]["pwd"].value;
+                if (myForm.fname.value== "") {
+                alert("Name must be filled out");
+                return false;
+  }
+}
+        
+                </script>
+            
+        
+    </head>
+
+    <body>
+
+      <form name="myForm" onclick="validateForm()">
+        User Name: <input type="text" name="fname"><br><br>
+        
+        Password: <input type="text" name="pwd">
+        <input type="submit" value="Submit">
+      </form>
+        
+    </body>
+
+
+</html>
