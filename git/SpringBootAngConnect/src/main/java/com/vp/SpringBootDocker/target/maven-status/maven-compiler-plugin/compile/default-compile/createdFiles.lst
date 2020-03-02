@@ -1,0 +1,6 @@
+com\vp\config\HibernateConfig.class
+com\vp\repository\StudentRepository.class
+com\vp\controller\StudentController.class
+com\vp\model\Student.class
+com\vp\service\StudentService.class
+com\vp\SpringBootDockerApplication.class
